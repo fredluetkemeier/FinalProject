@@ -12,6 +12,10 @@
 		C3573B30227B910D00A716C1 /* FinalProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C3573B2E227B910D00A716C1 /* FinalProject.xcdatamodeld */; };
 		C3573B32227B910F00A716C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3573B31227B910F00A716C1 /* Assets.xcassets */; };
 		C3573B35227B910F00A716C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3573B33227B910F00A716C1 /* LaunchScreen.storyboard */; };
+		C3573B3D2285246100A716C1 /* AlbumsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3573B3C2285246100A716C1 /* AlbumsTableViewCell.swift */; };
+		C3573B3F2285249A00A716C1 /* AlbumsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3573B3E2285249A00A716C1 /* AlbumsTableViewController.swift */; };
+		C3573B41228524B400A716C1 /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3573B40228524B400A716C1 /* Album.swift */; };
+		C3573B43228537E500A716C1 /* AlbumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3573B42228537E500A716C1 /* AlbumViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		C3573B31227B910F00A716C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C3573B34227B910F00A716C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C3573B36227B910F00A716C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3573B3C2285246100A716C1 /* AlbumsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumsTableViewCell.swift; sourceTree = "<group>"; };
+		C3573B3E2285249A00A716C1 /* AlbumsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumsTableViewController.swift; sourceTree = "<group>"; };
+		C3573B40228524B400A716C1 /* Album.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
+		C3573B42228537E500A716C1 /* AlbumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +68,10 @@
 				C3573B33227B910F00A716C1 /* LaunchScreen.storyboard */,
 				C3573B36227B910F00A716C1 /* Info.plist */,
 				C3573B2E227B910D00A716C1 /* FinalProject.xcdatamodeld */,
+				C3573B3E2285249A00A716C1 /* AlbumsTableViewController.swift */,
+				C3573B3C2285246100A716C1 /* AlbumsTableViewCell.swift */,
+				C3573B40228524B400A716C1 /* Album.swift */,
+				C3573B42228537E500A716C1 /* AlbumViewController.swift */,
 			);
 			path = FinalProject;
 			sourceTree = "<group>";
@@ -135,8 +147,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3573B43228537E500A716C1 /* AlbumViewController.swift in Sources */,
 				C3573B28227B910D00A716C1 /* AppDelegate.swift in Sources */,
+				C3573B3F2285249A00A716C1 /* AlbumsTableViewController.swift in Sources */,
 				C3573B30227B910D00A716C1 /* FinalProject.xcdatamodeld in Sources */,
+				C3573B3D2285246100A716C1 /* AlbumsTableViewCell.swift in Sources */,
+				C3573B41228524B400A716C1 /* Album.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
