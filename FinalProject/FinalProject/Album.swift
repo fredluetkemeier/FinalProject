@@ -21,6 +21,7 @@ struct Album {
         self.artistName = dictionary["artistName"] as? String ?? ""
         self.artworkURL = dictionary["artworkUrl100"] as? String ?? ""
         self.copyright = dictionary["copyright"] as? String ?? ""
+        self.copyright = "Copyright " + self.copyright
         self.releaseDate = dictionary["releaseDate"] as? String ?? ""
         
         if let genres = dictionary["genres"] as? [Dictionary<String, Any>] {
