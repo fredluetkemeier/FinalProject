@@ -49,7 +49,7 @@ class AlbumViewController: UIViewController {
             albumCopyrightLabel.text = album.copyright
             
             DispatchQueue.global(qos: .background).async {
-                let artwork500Url = album.artworkURL.replacingOccurrences(of: "200x200bb.png", with: "500x500bb.png")
+                let artwork500Url = album.artworkURL.replacingOccurrences(of: "200x200bb.png", with: "1000x1000bb.png")
                 var biggerImage: UIImage?
                 if let biggerImageUrl = URL(string: artwork500Url),
                     let biggerImageData = try? Data(contentsOf: biggerImageUrl) {
